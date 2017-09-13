@@ -60,7 +60,7 @@ Library24=notificationbuilder
 @EndOfDesignText@
 #Region  Project Attributes 
 	#ApplicationLabel: LikeArzoon
-	#VersionCode: 3
+	#VersionCode: 1
 	#VersionName: iFollow24 V2.00
 	'SupportedOrientations possible values: unspecified, landscape or portrait.
 	#SupportedOrientations: portrait
@@ -119,6 +119,7 @@ Sub Activity_Create(FirstTime As Boolean)
 	
 	
 	Activity.LoadLayout("layout")
+	
 	scrol.Initialize(panel_base.Height)
 	Dim bg1 As ColorDrawable:bg1.Initialize(Starter.color_base(1),0):Panel1.Background=bg1
 	apc.SetElevation(Panel1,9dip)
